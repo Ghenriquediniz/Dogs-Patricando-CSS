@@ -1,0 +1,40 @@
+.dogs {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 8rem;
+    padding-block-end: 8rem;
+}
+
+.dog {
+    display: flex;
+    flex-direction: column;
+}
+
+.nome {
+    color: #000000;
+    font-family: Pacifico, cursive;
+    font-size: 50px;
+    text-align: center;
+}
+
+.dog_imagem {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 100%;
+    height: 300px;
+    margin: 0 auto;
+    width: 300px;
+}
+
+.dog_imagem--nayla {
+    background-image: url('../imagens/Nayla.JPG');
+}
+
+.dog_imagem--poli {
+    background-image: url('../imagens/Poli.JPG');
+}
+
+.dog_imagem--duque {
+    background-image: url('../imagens/Duque.JPG');
+}
